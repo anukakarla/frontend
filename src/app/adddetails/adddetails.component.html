@@ -1,0 +1,43 @@
+<form [formGroup]="addForm" (ngSubmit)="addCarDetails()">
+    <table>
+        <tr> <label>Car Name:</label><br>
+            <input type="text" id="Name"  name="name" formControlName="name">
+        </tr>
+        <tr><label> Companyname:</label><br>
+            <input type="text" id="CompanyName"  name="companyName" formControlName="companyName">
+        </tr>
+        <tr> <label>FuelType:</label><br>
+            <input type="text" id="fuelType"  name="fuelType" formControlName="fuelType">
+        </tr>
+        <tr> <label>powerSteering:</label><br>
+            <input type="text" id="powerSteering"  name="powerSteering" formControlName="powerSteering">
+        </tr>
+        <tr> <label>brakeSystem:</label><br>
+            <input type="text" id="breakSystem" name="breakSystem" formControlName="breakSystem">
+        </tr>
+        <tr> <label>showroomPrice:</label><br>
+            <input type="number" id="showRoomPrice" name="showroomPrice" formControlName="showroomPrice">
+        </tr>
+        <tr> <label>onRoadPrice:</label><br>
+            <input type="number" id="onRoadPrice" name="onRoadPrice" formControlName="onRoadPrice">
+        </tr>
+        <tr> <label>image Url:</label><br>
+            <input type="text"  href="#" id="imageUrl" name="imageUrl"  formControlName="imageUrl">
+        </tr>
+        <tr> <label>mileage:</label><br>
+            <input type="number" id="mileage"  name="mileage" formControlName="mileage">
+        </tr>
+        <tr> <label>seatingCapacity:</label><br>
+            <input type="number" id="seatingCapacity"  name="seatingCapacity" formControlName="seatingCapacity">
+        </tr>
+        <tr> <label>engineCapacity:</label><br>
+            <input type="number" id="engineCapacity"  name="engineCapacity" formControlName="engineCapacity">
+        </tr>
+        <tr> <label>gearType:</label><br>
+            <input type="text" id="gearType"  name="gearType" formControlName="gearType">
+        </tr>
+        <button type="submit">Add</button>
+
+    </table>
+
+</form>
